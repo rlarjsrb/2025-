@@ -1,0 +1,6 @@
+﻿  FileName.cpp
+C:\Users\Cju\Documents\GitHub\2025-\Project7\Project7\FileName.cpp(13,44): error C3861: '_countof': 식별자를 찾을 수 없습니다.
+C:\Users\Cju\Documents\GitHub\2025-\Project7\Project7\FileName.cpp(13,13): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 '<error type>'입니다.
+      C:\Users\Cju\Documents\GitHub\2025-\Project7\Project7\FileName.cpp(13,13):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
