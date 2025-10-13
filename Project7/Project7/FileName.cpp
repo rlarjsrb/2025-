@@ -10,7 +10,7 @@ int main(void)
     printf("이름, 학번, 키(cm), 몸무게(kg)를 입력하세요:\n");
 
     // Visual Studio에서는 scanf_s 사용 (문자열 입력에는 크기 명시 필요)
-    scanf_s("%s %d %f %f", name, (unsigned)_countof(name), &studentID, &height_cm, &weight);
+    scanf_s("%s %d %f %f", name, 50, &studentID, &height_cm, &weight);
 
     // cm를 m로 변환
     height_m = height_cm / 100.0f;
@@ -24,7 +24,6 @@ int main(void)
     printf("학번: %d\n", studentID);
     printf("키: %.2f m\n", height_m);
     printf("몸무게: %.2f kg\n", weight);
-
     printf("\n[BMI 결과]\n");
     printf("BMI: %.2f\n", bmi);
 
